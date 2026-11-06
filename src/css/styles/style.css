@@ -312,14 +312,13 @@ header.smaller.scroll-light #mainmenu li li a:hover {
   color: #ffffff;
 }
 
-
 .hot-collections-slider .slick-slide {
   padding: 0 6px;
   box-sizing: border-box;
 }
 
 .hot-collections-slider .slick-list {
-  margin: 0 -12px;
+  margin: 0 -6px;
 }
 
 .hot-collections-slider .slick-prev,
@@ -371,10 +370,14 @@ header.smaller.scroll-light #mainmenu li li a:hover {
 
 .hot-collections-slider .nft_coll {
   width: 100%;
-  max-width: 280px;
   margin: 0 auto;
 }
 
+@media (max-width: 576px) {
+  .hot-collections-slider .nft_coll {
+    max-width: 280px;
+  }
+}
 .logo-smaller div#logo {
   width: 150px;
   height: 30px;
