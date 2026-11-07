@@ -15595,6 +15595,109 @@ img {
   margin: 0 auto;
 }
 
+/* New Items */
+
+.new-items-slider .slick-slide{
+  padding: 0 6px;
+}
+
+.new-items-slider .slick-list{
+  margin: 0 -6px;
+}
+
+.new-items-slider .slick-prev,
+.new-items-slider .slick-next {
+  z-index: 2;
+  width: 38px;
+  height: 38px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+}
+
+.new-items-slider .slick-prev {
+  left: -22px;
+}
+
+.new-items-slider .slick-next {
+  right: -22px;
+}
+
+.new-items-slider .slick-prev:before,
+.new-items-slider .slick-next:before {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1;
+}
+
+.new-items-slider .slick-prev:before {
+  content: "‹";
+}
+
+.new-items-slider .slick-next:before {
+  content: "›";
+}
+
+.new-items-slider .slick-prev:hover,
+.new-items-slider .slick-next:hover,
+.new-items-slider .slick-prev:focus,
+.new-items-slider .slick-next:focus {
+  background: white;
+}
+
+.new-items-skeleton {
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.new-items-skeleton__image {
+  width: 100%;
+  height: 350px;
+  min-height: 350px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.new-items-skeleton__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0 0 0;
+}
+
+.new-items-skeleton__title {
+  width: 70%;
+  height: 30px;
+  flex-shrink: 0;
+  margin-bottom: 6px;
+  border-radius: 2px;
+}
+
+.new-items-skeleton__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.new-items-skeleton__price {
+  width: 38%;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.new-items-skeleton__likes {
+  width: 12%;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
 /* ================================================== */
 
 /* R E S P O N S I V E */
@@ -16806,14 +16909,6 @@ img {
     left: 0;
     top: -21px;
   }
-}
-
-.skeleton-box {
-  display: inline-block;
-  height: 1em;
-  position: relative;
-  overflow: hidden;
-  background-color: #dddbdd;
 }
 
 .skeleton-box::after {
