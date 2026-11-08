@@ -15698,6 +15698,37 @@ img {
   border-radius: 2px;
 }
 
+/* Top Sellers */
+
+.top-sellers-skeleton {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.top-sellers-skeleton__image {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 50px;
+  border-radius: 50%;
+}
+
+.top-sellers-skeleton__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.top-sellers-skeleton__author {
+  width: 100px;
+  height: 20px;
+}
+
+.top-sellers-skeleton__price {
+  width: 40px;
+  height: 20px;
+}
+
 /* ================================================== */
 
 /* R E S P O N S I V E */
