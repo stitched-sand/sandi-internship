@@ -48,7 +48,7 @@ const TopSellers = () => {
                     <li key={seller.id}>
                       <div className="author_list_pp">
                         <Link
-                          to={`https://nft-marketplacee.web.app/author/${seller.authorId}`}
+                          to={`/author/${seller.authorId}`}
                         >
                           <img
                             className="lazy pp-author"
@@ -60,7 +60,7 @@ const TopSellers = () => {
                       </div>
                       <div className="author_list_info">
                         <Link
-                          to={`https://nft-marketplacee.web.app/author/${seller.authorId}`}
+                          to={`/author/${seller.authorId}`}
                         >
                           {seller.authorName}
                         </Link>

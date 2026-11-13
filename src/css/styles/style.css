@@ -15698,7 +15698,7 @@ img {
   border-radius: 2px;
 }
 
-/* Top Sellers */
+/* Top Sellers Skeleton */
 
 .top-sellers-skeleton {
   display: flex;
@@ -15728,6 +15728,52 @@ img {
   width: 40px;
   height: 20px;
 }
+
+/* Author Skeleton */
+
+/* Author Skeleton */
+
+.author-skeleton {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author-skeleton__image {
+  width: 150px;
+  height: 150px;
+  flex: 0 0 150px;
+  border-radius: 50%;
+}
+
+.author-skeleton__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.author-skeleton__name {
+  width: 160px;
+  height: 24px;
+}
+
+.author-skeleton__tag {
+  width: 100px;
+  height: 18px;
+}
+
+.author-skeleton__address {
+  width: 240px;
+  height: 18px;
+}
+
+.author-follow-skeleton {
+  width: 170px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
 
 /* ================================================== */
 
