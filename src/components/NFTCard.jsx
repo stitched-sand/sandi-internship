@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const NFTCard = ({ item, getTimeRemaining }) => {
   return (
     <div className="nft__item">
                             <div className="author_list_pp">
                               <Link
-                                to={`https://nft-marketplacee.web.app/author/${item.authorId}`}
+                                to={`/author/${item.authorId}`}
                                 data-bs-toggle="tooltip"
                                 data-bs-placement="top"
                                 title="Creator: Monica Lucas"
