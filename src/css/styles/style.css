@@ -15775,6 +15775,75 @@ img {
 }
 
 
+/* ITEM DETAILS SKELETON */
+
+.item-details-skeleton__image {
+  width: 100%;
+  max-width: 632px;
+  height: 708px;
+}
+
+.item-details-skeleton__title {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 22px;
+}
+
+.item-details-skeleton__count {
+  width: 80px;
+  height: 30px;
+}
+
+.item_info_counts {
+  display: flex;
+  gap: 10px;
+}
+
+.item-details-skeleton__person + .item-details-skeleton__person {
+  margin-top: 10px;
+}
+
+.item-details-skeleton__description {
+  width: 316px;
+  height: 54px;
+  margin-top: 20px;
+}
+
+.item-details-skeleton__person {
+  margin-top: 25px;
+}
+
+.item-details-skeleton__person-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.item-details-skeleton__person h6 {
+  margin-bottom: 8px;
+}
+
+.item-details-skeleton__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.item-details-skeleton__name {
+  width: 125px;
+  height: 20px;
+}
+
+.item-details-skeleton__price-title {
+  margin-top: 12px;
+}
+
+.item-details-skeleton__price {
+  width: 75px;
+  height: 20px;
+}
+
 /* ================================================== */
 
 /* R E S P O N S I V E */
